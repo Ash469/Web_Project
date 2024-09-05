@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website Icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Red_x.svg/1200px-Red_x.svg.png">
+</head>
+<body>
+    <div class="tic-tac-toe">
+        <h1>Tic Tac Toe</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Red_x.svg/1200px-Red_x.svg.png" alt="logo">
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div class="message" id="message"></div>
+        <button class="restart-button" id="restart-button">Restart</button>
+    </div>
+    <div class="scores">
+        <div class="player-score">
+            <span>Player X: </span>
+            <span id="player-x-score">0</span>
+        </div>
+        <div class="player-score">
+            <span>Player O: </span>
+            <span id="player-o-score">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
